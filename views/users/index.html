@@ -1,0 +1,19 @@
+<br/>
+<?php 
+if(Session::get('username')){	
+?>
+<div><?=Session::delete('message') ?></div>
+<div><?=$data['user']['username']?> <a href="/users/logout">Выйти</a></div><p/>
+<div>На вашем счету <?=$data['user']['amount']?> тенге</div>
+<form method="post" action="" onsubmit="return confirm('Вы уверены что хотите снять деньги?')">
+	
+	<label for="amount">
+		Введите сумму для снятия
+	</label>
+	<input type="text" id="delmoney" name="delmoney" value="0" size="6"  style="text-align: right;" />тенге
+	<input type="submit" name="subDel" value="Снять" />
+</form>
+<?php
+}
+
+?>
