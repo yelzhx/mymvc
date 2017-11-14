@@ -21,4 +21,4 @@ Config::set('db.password','');
 
 Config::set('db.db_name','db_mymvc');
 
-?>
+
