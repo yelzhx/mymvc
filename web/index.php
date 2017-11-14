@@ -23,4 +23,3 @@ App::run($_SERVER['REQUEST_URI']);
 
 session_write_close();
 
-?>

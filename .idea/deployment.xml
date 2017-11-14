@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="basic.loc">
+    <serverData>
+      <paths name="basic.loc">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="mymvc" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>
